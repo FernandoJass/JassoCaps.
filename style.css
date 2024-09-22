@@ -1,6 +1,6 @@
 /* Estilos para las imágenes */
 .producto img {
-    width: 70px;   /* Ancho de 70 píxeles */
+    width: 200px;   /* Ancho de 70 píxeles */
     height: auto;  /* Altura ajustada automáticamente */
 }
 
@@ -40,4 +40,9 @@
     font-family: 'Arial', sans-serif;
     color: #333;
     line-height: 1.6;
+}
+.producto h2 {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    color: #333;
 }
