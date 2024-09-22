@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JassoCaps - Venta de Gorras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>JassoCaps</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección de Bienvenida -->
+        <section id="bienvenida">
+            <h2>Bienvenidos a JassoCaps</h2>
+            <div class="descripcion">
+                <p>JassoCaps será una marca dedicada a ofrecer gorras de alta calidad que combinan estilo, comodidad y originalidad.</p>
+                <p>Con diseños modernos, de moda y versátiles, nuestras gorras están pensadas para quienes buscan un accesorio que complemente su outfit diario.</p>
+                <p>En JassoCaps, creemos en la importancia de los detalles, por eso cada una de nuestras gorras es fabricada con materiales de alta calidad.</p>
+                <p>Aseguramos que no solo luzcas bien, sino que también disfrutes de una prenda resistente y cómoda.</p>
+            </div>
+        </section>
+
+        <!-- Sección de Productos -->
+        <section id="productos">
+            <h2>Nuestras Gorras</h2>
+            <div class="productos-grid">
+                <div class="producto">
+                    <img src="Nuts.jpg.jpeg" alt="Gorra Nuts" width="70" height="auto">
+                    <h3>Gorra Goorin Bros Azul mezclilla, Nuts</h3>
+                    <p>$770.00</p>
+                    <button>Comprar Ahora</button>
+                </div>
+                <div class="productos-grid">
+                    <div class="producto">
+                        <img src="images\lone wolf.jpg.jpeg" alt="Gorra Lone Wolf" width="70" height="auto">
+                        <h3>Gorra Goorin Bros Blanca, Nuts</h3>
+                        <p>$770.00</p>
+                        <button>Comprar Ahora</button>
+                    </div><div class="productos-grid">
+                        <div class="producto">
+                            <img src="images\bad boy.jpg.jpeg" alt="Gorra Bad Boy" width="70" height="auto">
+                            <h3>Gorra Goorin Bros Azul , Nuts</h3>
+                            <p>$770.00</p>
+                            <button>Comprar Ahora</button>
+                        </div>
+                <!-- Más productos aquí -->
+            </div>
+        </section>
+
+        <!-- Sección de Contacto -->
+        <section id="contacto">
+            <h2>Contáctanos</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 JassoCaps. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<button onclick="mostrarInfo()">Ver más información</button>
+<div id="informacionAdicional" style="display: none;">
+    <p>Más información sobre nuestras gorras exclusivas.</p>
+</div>
